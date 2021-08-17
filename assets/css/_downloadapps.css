@@ -1,0 +1,27 @@
+.download-apps{
+    background-color: var(--primary-color);
+    padding: 12rem 0;
+}
+.download-apps .download-content h2{
+    color: #ffffff;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+.download-apps .download-content p{
+    color: #ffffff;
+    padding: 0 15rem;
+    font-weight: normal;
+
+}
+.download-apps .download-content .btn-one, .download-apps .download-content .btn-two{
+    background-color: var(--third-color);
+    color: var(--white);
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding: 1rem 1.5rem;
+    border-radius: 2rem;
+}
+.download-apps .download-content .btn-two{
+    background-color: var(--secondary-color);
+
+}

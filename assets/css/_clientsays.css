@@ -1,0 +1,51 @@
+.client-says{
+    margin: 6rem 0;
+}
+.client-says .heading h2{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+.client-says .heading hr{
+    width: 15rem;
+    text-align: center;
+    margin: 0 auto;
+    height: .5rem;
+    color: var(--third-color);
+}
+.client-says .my-clients{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+.client-says .my-clients .client{
+    box-sizing: border-box;
+    width: 30rem;
+    border: 1px solid var(--border-color);
+    padding: 5rem;
+    margin-bottom: 2rem;
+}
+.client-says .my-clients .client img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+.client-says .my-clients .client h2{
+    margin-top: 1.5rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.client-says .my-clients .client h3{
+    margin-top: 1.5rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: var(--secondary-color);
+}
+.client-says .my-clients .client span{
+    font-style: italic;
+    text-transform: capitalize;
+}
+.fas.b-left, .fas.b-right{
+    font-size: 2rem!important;
+    color: var(--primary-text-color);
+}

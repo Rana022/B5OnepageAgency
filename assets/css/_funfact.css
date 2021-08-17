@@ -1,0 +1,52 @@
+.fun-fact .content{
+    background-image: url('../images/coffe.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+
+}
+.fun-fact .content .fun-text-content{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 12rem;
+    z-index: 1;
+
+}
+.fun-fact .fun-text-content h2{
+    color: #ffffff;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+.fun-fact .fun-text-content p{
+    color: #ffffff;
+}
+.fun-fact .facts{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: -6rem;
+}
+.fun-fact .facts .fact{
+    background-color: #ffffff;
+    padding: 3rem;
+    -webkit-box-shadow: var(--box-shadow);
+    -moz-box-shadow: var(--box-shadow);
+    -ms-box-shadow: var(--box-shadow);
+    -o-box-shadow: var(--box-shadow);
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+    margin-bottom: 2rem;
+}
+.fun-fact .facts .fact p{
+    font-style: italic;
+    text-transform: capitalize;
+    margin-top: .5rem;
+}
+.fun-fact .facts .fact .counter{
+    color: var(--secondary-color);
+    font-size: 3rem;
+    font-weight: bold;
+}

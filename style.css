@@ -1,0 +1,42 @@
+
+/*
+ ===================================
+          style css
+ ===================================
+ */
+
+/* import css files */
+@import url(./assets/css/_variables.css);
+@import url(./assets/css/_menu.css);
+@import url(./assets/css/_intro.css);
+@import url(./assets/css/_authorquote.css);
+@import url(./assets/css/_funfact.css);
+@import url(./assets/css/_pricingtable.css);
+@import url(./assets/css/_downloadapps.css);
+@import url(./assets/css/_clientsays.css);
+@import url(./assets/css/_contact.css);
+@import url(./assets/css/_footer.css);
+@import url(./assets/css/_btntotop.css);
+@import url(./assets/css/_responsive.css);
+
+
+/* custom style here */
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* will make 1rem = 10px */
+    font-size: 62.5%;
+}
+body{
+    font: normal 400 1.6rem var(--font-mont);
+}
+body h1{
+    font-size: 3rem;
+}
+a{
+    text-decoration: none;
+}
+
+/* custom css */

@@ -1,0 +1,47 @@
+/*menu css here*/
+.intro{
+    background-color: var(--primary-color);
+    padding: 12rem 0;
+}
+.intro .container{
+    height: 100%;
+}
+.intro .container .row{
+    height: 100%;
+}
+.intro .text-content span{
+    color: var(--white);
+    font-style: italic;
+    letter-spacing: .5rem;
+    font: italic 400 1.4rem var(--font-mont);
+}
+.intro .text-content h2{
+    color: var(--secondary-color);
+    font-size: 4.6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 1rem 0;
+}
+.intro .text-content p{
+    color: var(--white);
+    font: normal 400 1.6rem var(--font-mont);
+    padding: 0 10rem;
+
+}
+.intro .text-content .sell-btn{
+    background-color: var(--secondary-color);
+    color: var(--white);
+    text-transform: uppercase;
+    border-radius: 2rem;
+    padding: 1rem 1.5rem;
+    opacity: 0.9;
+}
+.intro .text-content .sell-btn:hover{
+    background-color: var(--third-color);
+    color: var(--white);
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}

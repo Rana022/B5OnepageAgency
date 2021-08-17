@@ -1,0 +1,116 @@
+
+
+ /*
+ ===================================
+          Responsive css code
+ ===================================
+ */
+ /* Small devices (landscape phones, 576px and up) */
+ @media (max-width: 575.98px) {
+    /* intro responsive css */
+    .intro .text-content span {
+        letter-spacing: 0.2rem;
+    }
+    .intro .text-content h2 {
+        font-size: 2.6rem;
+    }
+    .intro .text-content p {
+        padding: 0 7rem;
+    }
+    /* intro responsive css */
+    /* funfact */
+    .fun-fact .content .fun-text-content {
+        padding: 12rem 1rem;
+    }
+    .fun-fact .fun-text-content h2 {
+        font-size: 2rem;
+    }
+    .fun-fact .fun-text-content p {
+        padding: 0;
+    }
+    /* menu */
+    header .collpse-btn{
+        right: 6.5rem;
+    }
+    header .nav-container{
+        padding: 0 6rem;
+    
+    }
+
+    
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 767.98px) {
+    /* menu responsive css */
+    header.active{
+        background-color: var(--primary-color);
+        padding: 5rem 0;
+    }
+    header .collpse-btn{
+        display: block;
+    }
+    header .nav-container .nav-items{
+        display: none;
+    }
+    header.active .nav-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+    header.active .nav-container .logo{
+        margin-bottom: 5rem;
+    }
+    header.active .nav-container .logo, header.active .nav-container .nav-items{
+        flex-basis: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    header .nav-container .nav-items.active{
+        display: block;
+
+    }
+    header.active .nav-container .nav-items .nav-item{
+        padding: 1rem 0;
+    }
+    /* menu responsive css */
+
+    /* app download responsive css */
+    .download-apps .download-content h2 {
+        font-size: 2.5rem;
+    }
+    .download-apps .download-content p {
+        padding: 0 3rem;
+    }
+    
+    .fun-fact .fun-text-content h2 {
+        font-size: 2.6rem;
+    }
+    .fun-fact .fun-text-content p {
+        padding: 0 6rem;
+    }
+    
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 991.98px) { 
+    /* app download responsive css */
+    .author-quote .author-img img{
+        width: 100%;
+    }
+    /* author quote responsive */
+    .author-quote .quote-content{
+        position: initial;
+        height: initial;
+        width: initial;
+    }
+    /* author quote responsive */
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1199.98px) { 
+
+}

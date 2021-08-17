@@ -1,0 +1,24 @@
+.author-quote{
+    margin: 6rem 0;
+}
+.author-quote .author-img img{
+    width: 90%;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+.author-quote .container .col-md-6{
+    position: relative;
+}
+.author-quote .quote-content{
+    position: absolute;
+    left: -12rem;
+    top: 4rem;
+    box-sizing: border-box;
+    -webkit-box-shadow: var(--box-shadow3);
+    -moz-box-shadow: var(--box-shadow3);
+    -ms-box-shadow: var(--box-shadow3);
+    -o-box-shadow: var(--box-shadow3);
+    box-shadow: var(--box-shadow3);
+    padding: 4rem 5rem;
+    background-color: #fff;
+}

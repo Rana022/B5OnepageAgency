@@ -1,0 +1,37 @@
+/*
+ ===================================
+          CSS VARIABLES
+ ===================================
+ */
+ :root{
+/* color scheme */
+--white: #fff;
+--black: #0e1111;
+--primary-color: #40c952;
+--secondary-color: #ffa442;
+--third-color: #ff4b4b;
+--primary-text-color: #000;
+--secondary-text-color: #222;
+--border-color: #4853537a;
+--menu-text: #ffffff;
+
+/* font-family */
+--font-mont: 'Mont',cursive;
+--font-rale: 'Rale',cursive;
+
+ /* box-shadow */
+--box-shadow: 0 0 1.2rem #090a0a7a;
+--box-shadow2: 0 0 1.2rem #0d2e2e23;
+--box-shadow3: 0 0 1.2rem #3842422f;
+ }
+
+
+/* Font-Family */
+@font-face{
+    font-family: Mont;
+    src: url(../../vendor/fonts/Montserrat/Montserrat-Regular.ttf);
+}
+@font-face{
+    font-family: Rale;
+    src: url(../../vendor/fonts/Raleway/static/Raleway-Regular.ttf);
+}
